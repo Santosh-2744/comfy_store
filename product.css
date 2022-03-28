@@ -1,0 +1,41 @@
+.search-value {
+  background-color: var(--header-background);
+  border: none;
+  color: var(--dark-light);
+  border-radius: 5px;
+  font-size: small;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px 0px;
+}
+
+.add-to-cart i {
+  color: white;
+}
+
+.sidebar-heading {
+  color: var(--dark-heading);
+  font-size: var(--button-font);
+}
+
+.sidebar-list {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.sidebar-link {
+  background-color: white;
+  border: none;
+  color: var(--dark-light);
+  margin: 5px 0px;
+}
+
+.sidebar-link:hover {
+  color: var(--dark-color);
+}
+
+.sidebar-subheading {
+  color: var(--dark-light);
+  margin: 10px 0px;
+}

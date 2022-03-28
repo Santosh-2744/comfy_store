@@ -1,0 +1,256 @@
+:root {
+  --coffee: #ba5d2c;
+  --dark-color: #334e68;
+  --coffee-light: #d4875d;
+  --button-font: 1.2rem;
+  --dark-light: #617d98;
+  --header-background: #f1f5f8;
+  --header-heading-size: 1.5rem;
+  --dark-heading: #102a42;
+}
+
+* {
+  font-family: "Cantarell", sans-serif;
+}
+
+.banner {
+  background-image: url("./images/main-bcg.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-link p {
+  color: white;
+  text-transform: capitalize;
+  font-size: var(--header-heading-size);
+  margin: 0px 15px;
+}
+
+.nav-link p:hover {
+  color: var(--coffee);
+}
+
+.brand p {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+  color: white;
+}
+
+.cart {
+  margin: 0px 10px 0px 0px;
+}
+
+.bi-cart-fill {
+  color: white;
+}
+
+.circle-icon {
+  background-color: var(--coffee);
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-icon:hover {
+  background-color: var(--coffee-light);
+}
+
+.cart-size {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Home */
+.main-heading {
+  font-size: 7vw;
+  font-family: "Kaushan Script", cursive;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 4vw;
+  letter-spacing: 2px;
+}
+
+.btn-outline-coffee {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: var(--button-font);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.btn-outline-coffee:hover {
+  background-color: white;
+  color: var(--coffee);
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 5px;
+}
+
+.product-title {
+  color: var(--dark-light);
+  font-size: 1rem;
+}
+
+.product-price {
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.show-icon {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  opacity: 0;
+}
+.show-icon:hover {
+  opacity: 1;
+}
+.search-item,
+.add-to-cart {
+  padding: 20px;
+}
+
+.btn-coffee {
+  background-color: var(--coffee);
+  color: white;
+  border: 1px solid var(--coffee);
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: var(--button-font);
+}
+
+.btn-coffee:hover {
+  background-color: var(--coffee-light);
+  border: 1px solid var(--coffee-light);
+  color: black;
+  transition: 0.5s;
+}
+
+.heading {
+  color: var(--dark-heading);
+}
+
+.header {
+  background-color: var(--header-background);
+}
+
+.header-heading {
+  color: var(--dark-light);
+  font-size: 1.6rem;
+  margin: 0px 15px;
+}
+
+.paragraph {
+  width: 90vw;
+  max-width: 768px;
+}
+
+.about-info {
+  color: var(--dark-light);
+  line-height: 30px;
+}
+
+#cart-items {
+  background-color: #f1f5f8;
+}
+
+.cart-item-name {
+  color: var(--dark-heading);
+  font-size: 0.95rem;
+}
+
+.cart-item-price {
+  color: var(--dark-light);
+  font-size: small;
+}
+
+.cart-item-remove {
+  border: none;
+  color: var(--dark-light);
+  background-color: #f1f5f8;
+}
+
+.cart-item-img {
+  border-radius: 5px;
+}
+
+.icon-up {
+  color: var(--coffee);
+  font-weight: 900;
+}
+
+.offcanvas-title {
+  font-family: "Kaushan Script", cursive;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--header-background);
+}
+
+.buton {
+  border: none;
+  background-color: transparent;
+}
+
+.single-product-image {
+  border-radius: 5px;
+}
+
+.single-product-company {
+  font-family: "Kaushan Script", cursive;
+  color: var(--dark-light);
+  text-transform: uppercase;
+}
+
+.single-product-info {
+  width: 90%;
+  max-width: 468px;
+  color: var(--dark-light);
+}
+
+.single-product-price {
+  color: var(--dark-color);
+}
+
+.cart-items {
+  margin-bottom: 150px;
+}
